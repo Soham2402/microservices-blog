@@ -1,8 +1,11 @@
 from rest_framework import viewsets
 from rest_framework.response import Response
 from rest_framework import status
-from .serializer import PostSerializer,UserSerializer
 
+import json
+
+from .serializer import PostSerializer,UserSerializer
+from .producer import publish
 from .models import Post, User
 
 class PostViewSet(viewsets.ViewSet):
@@ -10,6 +13,7 @@ class PostViewSet(viewsets.ViewSet):
         try:
             posts = Post.objects.all()
             serialized = PostSerializer(posts, many = True)
+            publish(body=json.dumps(serialized.data))
             return Response(data = serialized.data, status = status.HTTP_204_NO_CONTENT)
         except:
             return Response(status = status.HTTP_404_NOT_FOUND)    

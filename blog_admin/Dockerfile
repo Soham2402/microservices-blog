@@ -12,6 +12,5 @@ RUN ls -a && \
 
 COPY . /app/
 
-RUN ls 
 
-CMD python manage.py runserver 0.0.0.0:8000
+
