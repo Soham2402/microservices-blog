@@ -8,7 +8,8 @@ COPY requirements.txt app/tmp/requirements.txt
 
 RUN ls -a && \
     pip install -r app/tmp/requirements.txt && \
-    rm -rf /tmp
+    rm -rf /tmp 
+    
 
 COPY . /app/
 

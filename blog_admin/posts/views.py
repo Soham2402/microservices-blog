@@ -13,7 +13,7 @@ class PostViewSet(viewsets.ViewSet):
         try:
             posts = Post.objects.all()
             serialized = PostSerializer(posts, many = True)
-            publish(body=json.dumps(serialized.data))
+            print(serialized.data)
             return Response(data = serialized.data, status = status.HTTP_204_NO_CONTENT)
         except:
             return Response(status = status.HTTP_404_NOT_FOUND)    
@@ -23,6 +23,7 @@ class PostViewSet(viewsets.ViewSet):
         deserialized = PostSerializer(data=request.data)
         if deserialized.is_valid():
             deserialized.save()
+            publish("Data_created",body=json.dumps(deserialized.data))
             return Response(data = deserialized.data, status=status.HTTP_201_CREATED)
         else:
             return Response(status=status.HTTP_406_NOT_ACCEPTABLE)
@@ -39,6 +40,7 @@ class PostViewSet(viewsets.ViewSet):
     def destroy(self,request,pk = None):
         try:
             post = Post.objects.get(id = pk)
+            publish("Data_deleted",body=json.dumps(pk))
             post.delete()
             return Response(status=status.HTTP_204_NO_CONTENT)
         except:
@@ -50,6 +52,7 @@ class PostViewSet(viewsets.ViewSet):
             serialized = PostSerializer(instance=post, data=request.data)
             if serialized.is_valid():
                 serialized.save()
+                publish("Data_updated",body=json.dumps(serialized.data))
                 return Response(data = serialized.data, status=status.HTTP_202_ACCEPTED)
             else:
                 return Response(status=status.HTTP_304_NOT_MODIFIED)

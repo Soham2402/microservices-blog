@@ -1,12 +1,13 @@
-# amqps://ycatgoik:y_ptrae9vcT0vC77EWS8rm04vHrCe6yW@lionfish.rmq.cloudamqp.com/ycatgoik
 import pika 
 
 
 #creating a connection
-params = pika.URLParameters('amqps://ycatgoik:y_ptrae9vcT0vC77EWS8rm04vHrCe6yW@lionfish.rmq.cloudamqp.com/ycatgoik')
+params = pika.URLParameters('amqps://moalafqa:otGsjLp8Z2vFanH5EGl8yh8f0XtxSaBd@lionfish.rmq.cloudamqp.com/moalafqa')
 connection = pika.BlockingConnection(params)
+
 
 #creating a channel 
 channel = connection.channel()
-def publish(body):
-    channel.basic_publish(exchange='', routing_key='main_queue', body=body)
+def publish(method,body):
+    property = pika.BasicProperties(method)
+    channel.basic_publish(exchange='', routing_key='main_queue', body=body,  properties=property)     

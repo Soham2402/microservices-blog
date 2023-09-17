@@ -12,6 +12,15 @@ services:
       depends_on:
         - db
 
+    consumer:
+      build: 
+        context: .
+        dockerfile: Dockerfile
+      command: "python consumer_main.py"
+      depends_on:
+        - backend
+
+
     db:
       image: mysql:5.7.22
       restart: always

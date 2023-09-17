@@ -18,7 +18,7 @@ services:
         dockerfile: Dockerfile
       command: "python consumer.py"
       depends_on:
-        - db
+        - backend
 
 
 

@@ -1,0 +1,543 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "json,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json.",
+        "description": "json.",
+        "detail": "json.",
+        "documentation": {}
+    },
+    {
+        "label": "pika",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pika",
+        "description": "pika",
+        "detail": "pika",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "blog_admin.asgi",
+        "description": "blog_admin.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "blog_admin.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-7p#mb#52!ff-4o5)xh-amv=hhy(@p$jq(2(-od-yk)sp9=-16o'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['0.0.0.0:8000', 'localhost' ]\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-7p#mb#52!ff-4o5)xh-amv=hhy(@p$jq(2(-od-yk)sp9=-16o'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['0.0.0.0:8000', 'localhost' ]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['0.0.0.0:8000', 'localhost' ]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['0.0.0.0:8000', 'localhost' ]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'posts',\n    'corsheaders'",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'corsheaders.middleware.CorsMiddleware'\n]",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "ROOT_URLCONF = 'blog_admin.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'blog_admin.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'admin',\n        'USER':'root',\n        'PASSWORD':'root',\n        'HOST':'db',",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'admin',\n        'USER':'root',\n        'PASSWORD':'root',\n        'HOST':'db',\n        'PORT':'3306'\n    }\n}",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nCORS_ORIGIN_ALLOW_ALL = True\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nCORS_ORIGIN_ALLOW_ALL = True\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nCORS_ORIGIN_ALLOW_ALL = True\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nCORS_ORIGIN_ALLOW_ALL = True\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nCORS_ORIGIN_ALLOW_ALL = True\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ORIGIN_ALLOW_ALL",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "CORS_ORIGIN_ALLOW_ALL = True\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "blog_admin.settings",
+        "description": "blog_admin.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "blog_admin.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "blog_admin.urls",
+        "description": "blog_admin.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('posts.urls'))\n]",
+        "detail": "blog_admin.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "blog_admin.wsgi",
+        "description": "blog_admin.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "blog_admin.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "posts.migrations.0001_initial",
+        "description": "posts.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Post',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=289)),",
+        "detail": "posts.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "PostsConfig",
+        "kind": 6,
+        "importPath": "posts.apps",
+        "description": "posts.apps",
+        "peekOfCode": "class PostsConfig(AppConfig):\n    name = 'posts'",
+        "detail": "posts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "kind": 2,
+        "importPath": "posts.consumer_main",
+        "description": "posts.consumer_main",
+        "peekOfCode": "def callback(ch, method, properties, body):\n    data = json.loads(body)\n    print(data)\nchannel.basic_consume(queue = \"admin_queue\", on_message_callback= callback, auto_ack=True)\nprint(\"Starting consuming \")\nchannel.start_consuming()\nchannel.close()",
+        "detail": "posts.consumer_main",
+        "documentation": {}
+    },
+    {
+        "label": "params",
+        "kind": 5,
+        "importPath": "posts.consumer_main",
+        "description": "posts.consumer_main",
+        "peekOfCode": "params = pika.URLParameters('amqps://moalafqa:otGsjLp8Z2vFanH5EGl8yh8f0XtxSaBd@lionfish.rmq.cloudamqp.com/moalafqa')\nconnection = pika.BlockingConnection(params)\n#creating and declaring a channel and queue\nchannel =  connection.channel()\nchannel.queue_declare(queue=\"admin_queue\")\ndef callback(ch, method, properties, body):\n    data = json.loads(body)\n    print(data)\nchannel.basic_consume(queue = \"admin_queue\", on_message_callback= callback, auto_ack=True)\nprint(\"Starting consuming \")",
+        "detail": "posts.consumer_main",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "kind": 5,
+        "importPath": "posts.consumer_main",
+        "description": "posts.consumer_main",
+        "peekOfCode": "connection = pika.BlockingConnection(params)\n#creating and declaring a channel and queue\nchannel =  connection.channel()\nchannel.queue_declare(queue=\"admin_queue\")\ndef callback(ch, method, properties, body):\n    data = json.loads(body)\n    print(data)\nchannel.basic_consume(queue = \"admin_queue\", on_message_callback= callback, auto_ack=True)\nprint(\"Starting consuming \")\nchannel.start_consuming()",
+        "detail": "posts.consumer_main",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "kind": 5,
+        "importPath": "posts.consumer_main",
+        "description": "posts.consumer_main",
+        "peekOfCode": "channel =  connection.channel()\nchannel.queue_declare(queue=\"admin_queue\")\ndef callback(ch, method, properties, body):\n    data = json.loads(body)\n    print(data)\nchannel.basic_consume(queue = \"admin_queue\", on_message_callback= callback, auto_ack=True)\nprint(\"Starting consuming \")\nchannel.start_consuming()\nchannel.close()",
+        "detail": "posts.consumer_main",
+        "documentation": {}
+    },
+    {
+        "label": "channel.basic_consume(queue",
+        "kind": 5,
+        "importPath": "posts.consumer_main",
+        "description": "posts.consumer_main",
+        "peekOfCode": "channel.basic_consume(queue = \"admin_queue\", on_message_callback= callback, auto_ack=True)\nprint(\"Starting consuming \")\nchannel.start_consuming()\nchannel.close()",
+        "detail": "posts.consumer_main",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "posts.models",
+        "description": "posts.models",
+        "peekOfCode": "class Post(models.Model):\n    title = models.CharField(max_length=289, null=False)\n    image = models.CharField(max_length=289)\n    likes = models.PositiveIntegerField(default=0)\nclass User(models.Model):\n    pass",
+        "detail": "posts.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "posts.models",
+        "description": "posts.models",
+        "peekOfCode": "class User(models.Model):\n    pass",
+        "detail": "posts.models",
+        "documentation": {}
+    },
+    {
+        "label": "publish",
+        "kind": 2,
+        "importPath": "posts.producer",
+        "description": "posts.producer",
+        "peekOfCode": "def publish(method,body):\n    property = pika.BasicProperties(method)\n    channel.basic_publish(exchange='', routing_key='main_queue', body=body,  properties=property)",
+        "detail": "posts.producer",
+        "documentation": {}
+    },
+    {
+        "label": "params",
+        "kind": 5,
+        "importPath": "posts.producer",
+        "description": "posts.producer",
+        "peekOfCode": "params = pika.URLParameters('amqps://moalafqa:otGsjLp8Z2vFanH5EGl8yh8f0XtxSaBd@lionfish.rmq.cloudamqp.com/moalafqa')\nconnection = pika.BlockingConnection(params)\n#creating a channel \nchannel = connection.channel()\ndef publish(method,body):\n    property = pika.BasicProperties(method)\n    channel.basic_publish(exchange='', routing_key='main_queue', body=body,  properties=property)",
+        "detail": "posts.producer",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "kind": 5,
+        "importPath": "posts.producer",
+        "description": "posts.producer",
+        "peekOfCode": "connection = pika.BlockingConnection(params)\n#creating a channel \nchannel = connection.channel()\ndef publish(method,body):\n    property = pika.BasicProperties(method)\n    channel.basic_publish(exchange='', routing_key='main_queue', body=body,  properties=property)",
+        "detail": "posts.producer",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "kind": 5,
+        "importPath": "posts.producer",
+        "description": "posts.producer",
+        "peekOfCode": "channel = connection.channel()\ndef publish(method,body):\n    property = pika.BasicProperties(method)\n    channel.basic_publish(exchange='', routing_key='main_queue', body=body,  properties=property)",
+        "detail": "posts.producer",
+        "documentation": {}
+    },
+    {
+        "label": "PostSerializer",
+        "kind": 6,
+        "importPath": "posts.serializer",
+        "description": "posts.serializer",
+        "peekOfCode": "class PostSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Post\n        fields = '__all__'\nclass UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = '__all__'",
+        "detail": "posts.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "posts.serializer",
+        "description": "posts.serializer",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = '__all__'",
+        "detail": "posts.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "posts.urls",
+        "description": "posts.urls",
+        "peekOfCode": "urlpatterns = [\n    path('post/', PostViewSet.as_view({\n        'get':'list',\n        'post':'create'\n        })),\n    path('post/<str:pk>',PostViewSet.as_view({\n        'put':'update',\n        'get':'retrieve',\n        'delete':'destroy'\n    })),",
+        "detail": "posts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "PostViewSet",
+        "kind": 6,
+        "importPath": "posts.views",
+        "description": "posts.views",
+        "peekOfCode": "class PostViewSet(viewsets.ViewSet):\n    def list(self, request):\n        try:\n            posts = Post.objects.all()\n            serialized = PostSerializer(posts, many = True)\n            print(serialized.data)\n            return Response(data = serialized.data, status = status.HTTP_204_NO_CONTENT)\n        except:\n            return Response(status = status.HTTP_404_NOT_FOUND)    \n    def create(self, request):",
+        "detail": "posts.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserAPIView",
+        "kind": 6,
+        "importPath": "posts.views",
+        "description": "posts.views",
+        "peekOfCode": "class UserAPIView(viewsets.ViewSet):\n    def list(self,request):\n        user = User.objects.all()\n        serialized = UserSerializer(user, many = True)\n        return Response(data = serialized.data, status=status.HTTP_302_FOUND)",
+        "detail": "posts.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blog_admin.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
