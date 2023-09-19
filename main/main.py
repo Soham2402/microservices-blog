@@ -1,5 +1,5 @@
 from flask import Flask, jsonify,request, json
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import UniqueConstraint
 from flask_migrate import Migrate
@@ -35,10 +35,11 @@ class PostUser(db.Model):
 
 @app.route('/api/posts')
 def index():
-    data =  Post.query.all()
-    print(jsonify(request.json))
-    return jsonify(data)
+    return jsonify(Post.query.all())
 
+@app.route('/api/post/<int:pk>')
+def single_post(pk):
+    return jsonify(Post.query.get(pk))
 
 @app.route('/api/posts/<int:pk>/likes', methods = ['PUT'])
 def likes(pk):
